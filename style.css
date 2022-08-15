@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#container{
+    border:1px solid black;
+    width:780px;
+    height:100%;
+    margin:10px auto;
+
+}
+
+#header{
+    background-color: #2be2e2;
+    border:1px solid red;
+    width:780px;
+    height:200px;
+}
+
+#main{
+    overflow:auto;
+}
+
+#main #sidebar{
+    float:left;
+}
+
+#main #sidebar #searchbar{
+    background-color: #382ce2;
+    border:1px solid #1100ff;
+    width:235px;
+    height:110px;
+}
+
+#main #sidebar #Lorem{
+    background-color: #e23b2c;
+    border:1px solid #1100ff;
+    width:235px;
+    height:260px;
+}
+#main #sidebar #volutoat{
+    background-color: #e22c81;
+    border:1px solid #1100ff;
+    width:235px;
+    height:260px;
+}
+
+#main #content {
+    background-color: #2ce22c;
+    border:1px solid #1100ff;
+    width:450px;
+    height:745px;
+    float:right;
+}
+
+#footer{
+    background-color: #9ce22c;
+    border:1px solid #1100ff;
+    width:780px;
+    height:35px;
+}
