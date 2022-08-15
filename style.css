@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #container{
-    border:1px solid black;
+    /* border:1px solid black; */
     width:780px;
     height:100%;
     margin:10px auto;
@@ -13,7 +13,7 @@
 
 #header{
     background-color: #2be2e2;
-    border:1px solid red;
+    /* border:1px solid red; */
     width:780px;
     height:200px;
 }
@@ -24,6 +24,7 @@
 
 #main #sidebar{
     float:left;
+    margin: 10px 15px 0px 35px;
 }
 
 #main #sidebar #searchbar{
@@ -31,6 +32,7 @@
     border:1px solid #1100ff;
     width:235px;
     height:110px;
+    margin-bottom: 10px;
 }
 
 #main #sidebar #Lorem{
@@ -38,6 +40,8 @@
     border:1px solid #1100ff;
     width:235px;
     height:260px;
+    margin-bottom: 10px;
+
 }
 #main #sidebar #volutoat{
     background-color: #e22c81;
@@ -52,6 +56,7 @@
     width:450px;
     height:745px;
     float:right;
+    margin: 10px 45px 10px 0px;
 }
 
 #footer{
