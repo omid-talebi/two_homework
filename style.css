@@ -2,9 +2,9 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 #container{
-    /* border:1px solid black; */
     width:780px;
     height:100%;
     margin:10px auto;
@@ -13,7 +13,6 @@
 
 #header{
     background-color: #2be2e2;
-    /* border:1px solid red; */
     width:780px;
     height:200px;
 }
@@ -29,30 +28,77 @@
 
 #main #sidebar #searchbar{
     background-color: #382ce2;
-    border:1px solid #1100ff;
     width:235px;
     height:110px;
     margin-bottom: 10px;
+
+
 }
+
+#main #sidebar #searchbar #input_box
+{
+    width:50%;    
+}
+#main #sidebar #searchbar #search-box #btn_search{
+    color:#fff;
+    padding:3px;
+    background-color: #678c1a;
+    text-transform: uppercase;
+    letter-spacing:1px;
+}
+#main #sidebar #searchbar #search-box{
+    background-color:#95c72a;
+    text-align:center;
+    height: 65px;
+    padding:22.5px ;
+}
+
+#main #sidebar h3{
+    background-color: #678b1d;
+    height:45px;
+    padding: 15px;
+    text-transform: uppercase;
+    color:#fff;
+
+}
+
+/* /////////////////////////////////// */
 
 #main #sidebar #Lorem{
-    background-color: #e23b2c;
-    border:1px solid #1100ff;
-    width:235px;
-    height:260px;
     margin-bottom: 10px;
-
 }
+#main #sidebar #Lorem ul {
+    background-color: #95c72a;  
+    height: 215px;  
+    padding: 20px;
+}
+#main #sidebar #Lorem ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+#main #sidebar #volutoat ul {
+    background-color: #95c72a;  
+    height: 215px;  
+    padding: 20px;
+}
+#main #sidebar #volutoat ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+
+
+/* #main #sidebar #searchbar */
+/* # */
+
 #main #sidebar #volutoat{
     background-color: #e22c81;
-    border:1px solid #1100ff;
     width:235px;
     height:260px;
 }
 
 #main #content {
     background-color: #2ce22c;
-    border:1px solid #1100ff;
     width:450px;
     height:745px;
     float:right;
@@ -61,7 +107,6 @@
 
 #footer{
     background-color: #9ce22c;
-    border:1px solid #1100ff;
     width:780px;
     height:35px;
 }
