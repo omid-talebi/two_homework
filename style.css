@@ -98,13 +98,39 @@
 }
 
 #main #content {
-    background-color: #2ce22c;
+    background-color: #3e3c3d;
+    color:#aca59b;
     width:450px;
     height:745px;
     float:right;
     margin: 10px 45px 10px 0px;
 }
 
+#main #content h2{
+    color:white;
+    margin:35px 20px 10px;
+    border-bottom: 3px solid gray; 
+    text-transform: uppercase;
+
+}
+
+#main #content p{
+    margin:20px ;
+    word-spacing: 5px;
+    line-height: 1.5em;
+
+}
+
+#main #content #readme_1 {
+    margin:20px ;
+    
+}
+#main #content #readme_1 p{
+    display: inline-block;
+}
+
+
+/* /////////////////////////// */
 #footer{
     background-color: #9ce22c;
     width:780px;
