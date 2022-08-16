@@ -7,7 +7,7 @@
 #container{
     width:780px;
     height:100%;
-    margin:10px auto;
+    margin:0px auto;
 
 }
 
@@ -131,8 +131,12 @@
 
 
 /* /////////////////////////// */
-#footer{
-    background-color: #9ce22c;
-    width:780px;
+#container #footer{
+    background-color: #382ce2;
+    text-align: center;
+    line-height:35px;
+    width:700px;
     height:35px;
+    margin:20px 45px  0  35px;
+    margin-bottom:0px;
 }
