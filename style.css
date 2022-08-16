@@ -44,23 +44,34 @@
 {
     width:700px;
     margin:10px 45px 0 35px;
-
 }
+
 #header #header_menu ul
 {
     background-color: #29a0c8;
     border-bottom: 5px solid #5b5b5b;
 
 }
+#header #header_menu ul li a
+{
+    text-decoration: none;
+    color:#ffffffa8;
+
+}
+
 #header #header_menu ul li
 {
     margin:15px 0;
     padding:0 15px;
     display: inline-block;
     border-right:2px solid black;
-    color:rgba(255, 255, 255, 0.658);
     text-transform: uppercase;
 
+}
+
+#header #header_menu ul li a:hover{
+    color: #92217a;
+    font-weight: bold;
 }
 /* /////////////////////////// */
 #main{
@@ -85,12 +96,20 @@
     width:50%;    
 }
 #main #sidebar #searchbar #search-box #btn_search{
-    color:#fff;
+    color:#ffffffa8;
     padding:3px;
     background-color: #678c1a;
     text-transform: uppercase;
     letter-spacing:1px;
 }
+
+#main #sidebar #searchbar #search-box #btn_search:hover{
+    color: red;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+
 #main #sidebar #searchbar #search-box{
     background-color:#95c72a;
     text-align:center;
@@ -103,7 +122,7 @@
     height:45px;
     padding: 15px;
     text-transform: uppercase;
-    color:#fff;
+    color:#ffffffa8;
 
 }
 
@@ -121,6 +140,16 @@
     list-style-type: none;
     margin-bottom: 10px;
 }
+#main #sidebar #Lorem ul li a{
+    text-decoration: none;
+    color:#356d00;
+}
+
+#main #sidebar #Lorem ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+
 #main #sidebar #volutoat ul {
     background-color: #95c72a;  
     height: 215px;  
@@ -129,6 +158,14 @@
 #main #sidebar #volutoat ul li {
     list-style-type: none;
     margin-bottom: 10px;
+}
+#main #sidebar #volutoat ul li a{
+    text-decoration: none;
+    color:#356d00;
+}
+#main #sidebar #volutoat ul li a:hover{
+    color: red;
+    font-weight: bold;
 }
 
 
@@ -151,7 +188,7 @@
 }
 
 #main #content h2{
-    color:white;
+    color:#ffffffa8;
     margin:35px 20px 10px;
     border-bottom: 3px solid gray; 
     text-transform: uppercase;
@@ -171,6 +208,12 @@
 }
 #main #content #readme_1 p{
     display: inline-block;
+}
+#main #content #readme_1 a{
+    color:#5c8dad;
+}
+#main #content #readme_1 a:hover{
+    color:rgb(255, 208, 0);
 }
 
 
